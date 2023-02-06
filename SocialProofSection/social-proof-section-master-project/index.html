@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400;600&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .users-text {
+        color: #50244a;
+        font-family: 'League Spartan';
+        font-weight: 600;
+        font-size: 25px;
+        padding-left: 100px;
+        padding-top: 30px;
+      } 
+      .products-text {
+        font-family: 'League Spartan';
+        font-weight: 600;
+        color: hsl(303, 10%, 53%);
+        padding-left: 100px;
+      }
+      .card1 {
+        box-shadow: 0px 4px 8px 0px rgba(170, 170, 170, 0.8);
+        margin-left: 100px;
+        margin-right: 100px;
+        align-content: center;
+        background-image: url("images/bg-pattern-top-desktop.svg");
+      }
+      .container {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 220px;
+        margin-left: 200px;
+      }
+      .card2 {
+        background-color: hsl(300, 43%, 22%);
+        color: white;
+        width: 250px;
+        font-family: 'League Spartan';
+        font-weight: 400;
+        font-size: 13px;
+        border-radius: 7px;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 100px;
+      }
+      .status-text {
+        font-family: 'League Spartan';
+        font-weight: 200;
+        color: #a05488;
+      }
+      .img {
+        border-radius: 50%;
+        width: 35px;
+        position: relative;
+        top: 1em;
+        left: -3em;
+      }
+      .hcard2 {
+        position: relative;
+        top: 2em;
+      }
+      .hcard3 {
+        position: relative;
+        top: 4em;
+      }
+      .rate-card1 {
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 8px;
+        width: 420px;
+        height: 50px;
+        text-align: center;
+        font-family: 'League Spartan';
+        font-weight: 600;
+        color: hsl(300, 43%, 22%);
+        line-height: 50px;
+        position: relative;
+        top: -10em;
+        left: 40em;
+      }
+      .rate-card2 {
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 8px;
+        width: 420px;
+        height: 50px;
+        text-align: center;
+        font-family: 'League Spartan';
+        font-weight: 600;
+        color: hsl(300, 43%, 22%);
+        line-height: 50px;
+        position: relative;
+        top: -9em;
+        left: 45em;
+      }
+      .rate-card3 {
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 8px;
+        width: 420px;
+        height: 50px;
+        text-align: center;
+        font-family: 'League Spartan';
+        font-weight: 600;
+        color: hsl(300, 43%, 22%);
+        line-height: 50px;
+        position: relative;
+        top: -8em;
+        left: 50em;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="card1">
+     <section>
+      
+      <div class ="users-text">
+        <h2>10,000+ of our<br> users love our<br> products.</h2>
+      </div>
+
+      <div class="products-text">
+      <p>We only provide great products combined with excellent<br>
+         customer service. See what our satisfied costumers are<br>
+         saying about our services.</p>  
+      </div>
+    </section>
+
+      <section>
+        <div class="rate-card1"><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><b> Rated 5 Stars in Reviews</b></div>
+        <div class="rate-card2"><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><b> Rated 5 Stars in Report Guru</b></div>
+        <div class="rate-card3"><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><img src="images/icon-star.svg"/><b> Rated 5 Stars in BestTech</b></div>
+      </section>
+    <section>
+      <div class="container">      
+          <div class="card2">
+            <img class ="img" src="images/image-colton.jpg">Colton Smith<img/>
+            <div class="status-text"> 
+              <b>Verified Buyer</b>
+            </div>
+              "We needed the same printed design as<br> the one we had ordered a week prior.
+              Not<br> only did they find the original order, but<br> we also received it in time.
+              Excellent!"
+          </div>
+          <div class="hcard2">
+          <div class="card2">
+            <img class ="img" src="images/image-irene.jpg">Irene Roberts<img/>
+            <div class="status-text"> 
+              <b>Verified Buyer</b>
+            </div>
+              "Customer service is always excellent<br> and very quick turn around. Completely<br>
+              delighted with the simplicity of the<br> purchase and the speed of delivery."
+          </div>
+          </div>
+          <div class="hcard3">
+          <div class="card2">
+            <img class ="img" src="images/image-anne.jpg">Anne Wallace<img/> 
+            <div class="status-text"> 
+              <b>Verified Buyer</b>
+            </div>
+              "Put an order with this company and can<br> only praise them for the very high<br>
+              standard. Will definitely use them again<br> and recommend them to everyone!"
+          </div>
+        </div>
+      </div>
+    </section>
+   </div> 
+  </body>
+</html>
