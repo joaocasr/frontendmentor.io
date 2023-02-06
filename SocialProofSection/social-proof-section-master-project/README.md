@@ -91,4 +91,4 @@ This challenge is completely free. Please share it with anyone who will find it 
 **Have fun building!** 🚀
 
 # Final Result Submmited
-<img src=images/web-rate.JPG width="200px"/>
+<img src=images/rate-web.JPG width="200px"/>
