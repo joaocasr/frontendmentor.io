@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arya&family=Assistant:wght@200&family=Sumana&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  
+  <title>Space Travel</title>
+</head>
+<body class="bg-img-destination">
+
+<nav class="underline">
+  <ul>
+    <li>
+      <a href="index.html" style=""><b>00 </b> HOME</a>
+    </li>
+    <li>
+      <a href="destination.html"><b>01 </b> DESTINATION</a>
+    </li>
+    <li>
+      <a href="crew.html"><b>02 </b> CREW</a>
+    </li>
+    <li>
+      <a href="technology.html"><b>03 </b> TECHNOLOGY</a>
+    </li>    
+  </ul>
+</nav>
+<img class="im-pos" id="img-destination" src=""/>
+<section class="crew-style">
+  <h2 class="display-txt"><b>Pick your destination</b></h2>
+  <p class="display-txt" id="txt1"></p>
+  <p class="display-txt" id="txt2"></p>
+  <p class="display-txt" id="txt3"></p>
+  <p class="display-txt" id="txt4"></p>
+</section>
+<section>
+  <div class="container">
+    <div class="items">
+     <a class="items-txt" href="#EUROPA" onclick="myFunction(1)">EUROPA</a>
+    </div>
+    <div class="items">
+     <a class="items-txt" href="#MARS" onclick="myFunction(2)">MARS</a>
+    </div>
+    <div class="items">
+     <a class="items-txt" href="#MOON" onclick="myFunction(3)">MOON</a>
+    </div>
+    <div class="items">
+     <a class="items-txt" href="#TITAN" onclick="myFunction(4)">TITAN</a>
+    </div>
+
+  </div>
+</section>
+
+<script type="text/javascript">
+    function myFunction(n) {
+     if(n==1){
+     document.getElementById("img-destination").src="assets/destination/image-europa.png";
+     document.getElementById("txt1").innerHTML="Europa";
+     document.getElementById("txt2").innerHTML="The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.";
+     document.getElementById("txt3").innerHTML = "Avg. distance: 628,000,000 km.";
+     document.getElementById("txt4").innerHTML="Est. travel time: 3 years";     
+     }
+     else if(n==2){
+     document.getElementById("img-destination").src="assets/destination/image-mars.png";
+     document.getElementById("txt1").innerHTML="Mars";
+     document.getElementById("txt2").innerHTML="The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.";
+     document.getElementById("txt3").innerHTML = "Avg. distance: 225,000,000 km";
+     document.getElementById("txt4").innerHTML="Est. travel time: 9 months";     
+      }
+     else if(n==3){
+     document.getElementById("img-destination").src="assets/destination/image-moon.png";
+     document.getElementById("txt1").innerHTML= "Moon";
+     document.getElementById("txt2").innerHTML= "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.";
+     document.getElementById("txt3").innerHTML = "Avg. distance: 384,400 km";
+     document.getElementById("txt4").innerHTML= "Est. travel time: 3 days";     
+     }
+     else if(n==4){
+     document.getElementById("img-destination").src="assets/destination/image-titan.png";
+     document.getElementById("txt1").innerHTML="Titan";
+     document.getElementById("txt2").innerHTML="The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.";
+     document.getElementById("txt3").innerHTML="Avg. distance: 1,600,000,000 km";     
+     document.getElementById("txt4").innerHTML="Est. travel time: 7 years";     
+     }
+
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arya&family=Assistant:wght@200&family=Sumana&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  
+  <title>Space Travel</title>
+</head>
+<body class="bg-img-technology">
+
+<nav class="underline">
+  <ul>
+    <li>
+      <a href="index.html" style=""><b>00 </b> HOME</a>
+    </li>
+    <li>
+      <a href="destination.html"><b>01 </b> DESTINATION</a>
+    </li>
+    <li>
+      <a href="crew.html"><b>02 </b> CREW</a>
+    </li>
+    <li>
+      <a href="technology.html"><b>03 </b> TECHNOLOGY</a>
+    </li>    
+  </ul>
+</nav>
+<img class="im-pos-tech" id="img-destination" src=""/>
+<section class="crew-style">
+  <h2 class="display-txt"><b>Space launch 101</b></h2>
+  <p class="display-txt" id="txt1"></p>
+  <p class="display-txt" id="txt2"></p>
+</section>
+<section>
+  <div class="container">
+    <div class="items">
+     <a class="items-txt" href="#CAPSULE" onclick="myFunction(1)">CAPSULE</a>
+    </div>
+    <div class="items">
+     <a class="items-txt" href="#SPACEPORT" onclick="myFunction(2)">SPACEPORT</a>
+    </div>
+    <div class="items">
+     <a class="items-txt" href="#VEHICLE" onclick="myFunction(3)">VEHICLE</a>
+    </div>
+  </div>
+</section>
+<script type="text/javascript">
+    function myFunction(n) {
+     if(n==1){
+     document.getElementById("img-destination").src="assets/technology/image-space-capsule-portrait.jpg";
+     document.getElementById("txt1").innerHTML="Space capsule";
+     document.getElementById("txt2").innerHTML="A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.";
+     }
+     else if(n==2){
+     document.getElementById("img-destination").src="assets/technology/image-spaceport-portrait.jpg";
+     document.getElementById("txt1").innerHTML="Mars";
+     document.getElementById("txt2").innerHTML="A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.";
+      }
+     else if(n==3){
+     document.getElementById("img-destination").src="assets/technology/image-launch-vehicle-portrait.jpg";
+     document.getElementById("txt1").innerHTML= "Launch vehicle";
+     document.getElementById("txt2").innerHTML= "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!.";
+     }
+    }
+</script>
+</body>
+</html>
