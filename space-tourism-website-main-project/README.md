@@ -10,7 +10,7 @@ In this webpage you will find all the trip destinations and some extra info abou
 
 <img src="Captura de ecrã de 2023-02-08 17-18-48.png"/>
 
-In this webpage you will find all the crew tripulation which will lead the space travels.
+In this webpage you will find all the crew tripulation who will lead the space travels.
 
 <img src="Captura de ecrã de 2023-02-08 17-18-19.png"/>
 
