@@ -14,6 +14,10 @@ In this webpage you will find all the crew tripulation who will lead the space t
 
 <img src="Captura de ecrã de 2023-02-08 17-18-19.png"/>
 
+In the Technology webpage you will find the types of transportation and technology which this trips will make use of.
+
+<img src="Captura de ecrã de 2023-02-08 20-40-20.png">
+
 ## Welcome! 👋
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects. Our challenges are perfect portfolio pieces, so please feel free to use what you create in your portfolio to show others.
