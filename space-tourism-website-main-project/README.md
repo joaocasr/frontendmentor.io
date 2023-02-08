@@ -1,12 +1,17 @@
 # Frontend Mentor - Space tourism website
 
-![Design preview for the Space tourism website coding challenge](./preview.jpg)
-
 ## Final Result
 This layout is the Home page for the website Space Travel. There you can find a navigation menu with the different pages available: Home,Technology, Crew and Destination.
 There is also a small bio introducing the travel service to the costumers. 
+
+<img src="Captura de ecrã de 2023-02-08 17-18-31.png"/>
+
+In this webpage you will find all the trip destinations and some extra info about each one of them.
+
 <img src="Captura de ecrã de 2023-02-08 17-18-48.png"/>
-<img src="Captura de ecrã de 2023-02-08 17-18-48.png"/>
+
+In this webpage you will find all the crew tripulation which will lead the space travels.
+
 <img src="Captura de ecrã de 2023-02-08 17-18-19.png"/>
 
 ## Welcome! 👋
