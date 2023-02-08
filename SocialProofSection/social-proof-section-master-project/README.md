@@ -1,4 +1,8 @@
-# Frontend Mentor - Social proof section
+# Final Result Submmited
+
+<img src="Captura de ecrã de 2023-02-08 19-36-56.png"/>
+
+# Frontend Mentor - Social proof section - Mockup
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
@@ -90,5 +94,3 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 
-# Final Result Submmited
-<img src=images/rate-web.JPG width="1000px"/>
